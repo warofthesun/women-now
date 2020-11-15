@@ -1,0 +1,179 @@
+/**
+* Theme Name: Women NOW
+* Theme URI: localhost:8200
+* Description: Custom theme for Women NOW.
+* Author: The SplitPixel
+* Author URI: http://thesplitpixel.com
+* Template: buddyx
+* Version: 0.0.3
+* GitHub Theme URI: https://github.com/warofthesun/women-now.git
+*/
+h1, .h1 {
+  font-size: 3.052rem !important;
+}
+
+h2, .h2 {
+  font-size: 2.441rem !important;
+  color: #32010B !important;
+}
+h2.underline:after, .h2.underline:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #B0902C;
+  width: 70%;
+  margin: 1em auto;
+}
+
+h3, .h3 {
+  font-size: 1.953rem !important;
+  color: #32010B !important;
+}
+
+h4, .h4 {
+  font-size: 1.563rem !important;
+  color: #32010B !important;
+}
+
+h5,
+.h5 {
+  text-transform: uppercase !important;
+  color: #B0902C !important;
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+}
+
+h6, .h6 {
+  font-size: 0.8rem !important;
+}
+
+h7, .h7 {
+  font-size: 0.64rem !important;
+}
+
+h8,
+.h8 {
+  font-size: 0.512rem !important;
+}
+
+a.read-more.button,
+button:not(.menu-toggle),
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  background-color: #CC002C;
+}
+
+:root {
+  --color-link-hover: #CC002C !important;
+  --color-link-active: #CC002C !important;
+  --global-border-color: #e8e8e8;
+  --button_background_color: #CC002C !important;
+  --button_background_hover_color: #f83939;
+  --button_border_color: #CC002C !important;
+  --button_border_hover_color: #f83939;
+}
+
+body {
+  background: #FFFDF8;
+}
+
+.site-header__home {
+  justify-content: center !important;
+}
+.site-header-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.homepage__header-hero {
+  height: 70vh;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homepage__header-hero .logo__hero {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2em 1em;
+  border-radius: 6px;
+}
+.homepage__header-hero .social-platforms {
+  margin-bottom: -2em;
+}
+
+.social-platforms {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  list-style: none;
+}
+.social-platforms__interior {
+  justify-content: flex-end;
+}
+.social-platforms li {
+  margin: 0 0.2em;
+}
+.social-platforms li a {
+  color: #CC002C !important;
+}
+.social-platforms li a:hover {
+  color: #990021 !important;
+}
+.social-platforms li a i {
+  background: rgba(255, 253, 248, 0.8);
+  padding: 1px 3px;
+  border-radius: 6px;
+}
+
+.bbp-user-page .site {
+  padding-top: 0 !important;
+}
+
+.full-width {
+  margin-top: 6em;
+}
+.full-width__businesses {
+  background-color: rgba(176, 144, 44, 0.3);
+  padding: 2em;
+  text-align: center;
+}
+.full-width__instagram-feed {
+  text-align: center;
+}
+.full-width__sponsors {
+  text-align: center;
+}
+.full-width__contact-section {
+  background-color: rgba(204, 0, 44, 0.1);
+  padding: 4em 0;
+}
+.full-width__content {
+  margin-bottom: -1em;
+}
+
+.member__businesses {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.member__businesses li {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: calc(100/5 * 1%);
+}
+.member__businesses li a {
+  display: flex;
+  align-content: center;
+}
+.member__businesses img {
+  width: 100%;
+  max-width: 200px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */

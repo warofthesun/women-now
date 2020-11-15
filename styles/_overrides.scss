@@ -1,0 +1,17 @@
+a.read-more.button, 
+button:not(.menu-toggle), 
+input[type=button], 
+input[type=reset], 
+input[type=submit] {
+	background-color: $accent;
+}
+
+:root {
+	--color-link-hover: #CC002C !important;
+	--color-link-active: #CC002C !important;
+	--global-border-color: #e8e8e8;
+	--button_background_color: #CC002C !important;
+	--button_background_hover_color: #f83939;
+	--button_border_color: #CC002C !important;
+	--button_border_hover_color: #f83939;
+}

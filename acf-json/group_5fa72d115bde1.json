@@ -1,0 +1,279 @@
+{
+    "key": "group_5fa72d115bde1",
+    "title": "Full Width Lower Page Content",
+    "fields": [
+        {
+            "key": "field_5fa736a23dafe",
+            "label": "Add Content",
+            "name": "add_content",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fa736dc3daff",
+            "label": "Full Width Content",
+            "name": "full_width_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fa736a23dafe",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "5fa736ffa8b5a": {
+                    "key": "5fa736ffa8b5a",
+                    "name": "member_businesses",
+                    "label": "Member Businesses",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5fa737503db00",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "This field is optional. \r\n\r\nIf no text is entered the headline set in - <b>Theme Settings > Member Businesses > Default Headline<\/b> - will be used.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5fa7388c3db01",
+                            "label": "",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Up to ten (10) logos for Member Businesses added to - <b>Theme Settings > Member Businesses > Business Logos<\/b> - will be automatically displayed",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5fab4c5797306": {
+                    "key": "layout_5fab4c5797306",
+                    "name": "instagram_feed",
+                    "label": "Instagram Feed",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5fab4cd5ad261",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "This field is optional. \r\n\r\nIf no text is entered the headline set in - <b>Theme Settings > Instagram Feed > Default Headline<\/b> - will be used.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5fab4d3bad262",
+                            "label": "Instagram Feed Shortcode",
+                            "name": "instagram_feed",
+                            "type": "text",
+                            "instructions": "This field is optional. \r\n\r\nIf no shortcode is added the Instagram Feed specified in - <b>Theme Settings > Instagram Feed > Default Feed<\/b> - will be used.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5fb1684b46b2b": {
+                    "key": "layout_5fb1684b46b2b",
+                    "name": "sponsors",
+                    "label": "Sponsors",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5fb1684b46b2c",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "This field is optional. \r\n\r\nIf no text is entered the headline set in - <b>Theme Settings > Sponsors > Default Headline<\/b> - will be used.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5fb1684b46b2d",
+                            "label": "",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Up to five (5) logos for Sponsors added to - <b>Theme Settings > Sponsors > Sponsors<\/b> - will be automatically displayed",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5fb1723dd48a1": {
+                    "key": "layout_5fb1723dd48a1",
+                    "name": "contact_section",
+                    "label": "Contact Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5fb17248d48a2",
+                            "label": "Contact Message",
+                            "name": "contact_message",
+                            "type": "wysiwyg",
+                            "instructions": "This field is optional. \r\n\r\nIf no text is entered the content set in - <b>Theme Settings > Contact > Contact Message<\/b> - will be used.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "75",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5fb1728bd48a3",
+                            "label": "Contact Form Shortcode",
+                            "name": "contact_form_shortcode",
+                            "type": "text",
+                            "instructions": "This field is optional. \r\n\r\nIf no shortcode is entered the shortcode set in - <b>Theme Settings > Contact > Contact Form Shortcode<\/b> - will be used.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Content Block",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "full-width-container.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "full-width.php"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1605464766
+}

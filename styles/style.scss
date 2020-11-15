@@ -1,0 +1,148 @@
+/**
+* Theme Name: Women NOW
+* Theme URI: localhost:8200
+* Description: Custom theme for Women NOW.
+* Author: The SplitPixel
+* Author URI: http://thesplitpixel.com
+* Template: buddyx
+* Version: 0.0.3
+* GitHub Theme URI: https://github.com/warofthesun/women-now.git
+*/
+
+
+@import 'variables';
+@import 'typography';
+@import 'overrides';
+
+body {
+	background: $offwhite;
+}
+
+.site-header {
+	&__home {
+		justify-content: center !important;
+	}
+	
+	&-wrapper {
+		background: rgba(255,255,255,0.8);
+	}
+	
+	
+}
+
+.homepage {
+	&__header {
+		&-hero {
+			height: 70vh;
+			background: red;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			
+			.logo {
+				&__hero {
+					background-color: rgba($white, 0.7);
+					padding: 2em 1em;
+					border-radius: 6px;
+				}
+			}
+			
+			.social-platforms {
+				margin-bottom: -2em;
+			}
+		}
+	}
+}
+
+.social-platforms {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-size: 2.5em;
+	list-style: none;
+	
+	&__interior {
+		justify-content: flex-end;
+	}
+	
+	li {
+		margin: 0 .2em;
+		
+		a {
+			color: $accent !important;
+			
+			&:hover {
+				color: darken($accent, 10%) !important;
+			}
+			
+			i {
+				background: rgba($offwhite, 0.8);
+				padding: 1px 3px;
+				border-radius: 6px;
+			}
+		}
+	}
+}
+
+.bbp-user-page {
+	.site {
+		padding-top: 0 !important;
+	}
+}
+
+.full-width {
+	margin-top: 6em;
+	
+	&__businesses {
+		background-color: rgba($primary, 0.3);
+		padding: 2em;
+		text-align: center; 
+	}
+	
+	&__instagram-feed {
+		text-align: center; 
+	}
+	
+	&__sponsors {
+		text-align: center;
+	}
+	
+	&__contact-section {
+		background-color: rgba($accent, .1);
+		padding: 4em 0;
+	}
+	
+	&__content {
+		margin-bottom: -1em;
+	}
+}
+
+.member {
+	&__businesses {
+		display: flex;
+		list-style: none;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+		flex-wrap: wrap;
+		
+		li {
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			width: calc(100/5 * 1%);
+			
+			a {
+				display: flex;
+				align-content: center;
+			}
+		}
+		
+		img {
+			width: 100%;
+			max-width: 200px;
+			align-self: center;
+		}
+	}
+}
